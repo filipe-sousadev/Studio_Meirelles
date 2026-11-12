@@ -1,5 +1,6 @@
+import Image from "next/image";
 import { heroFacts, links } from "@/content/site";
-import { ButtonLink, Container, Eyebrow, ImagePlaceholder, TextLink } from "./ui";
+import { ButtonLink, Container, Eyebrow, TextLink } from "./ui";
 
 export function Hero() {
   return (
@@ -26,10 +27,14 @@ export function Hero() {
             ))}
           </ul>
         </div>
-        <ImagePlaceholder
-          ratio="4/5"
-          className="mx-auto w-full max-w-[420px] rounded-[28px] text-[15px]"
-          label="[FOTO DA DANI — retrato vertical, fundo escuro ou roxo]"
+        <Image
+          src="/dani-meirelles.jpg"
+          alt="Dani Meirelles trabalhando no notebook"
+          width={1182}
+          height={1478}
+          preload
+          sizes="(min-width: 1024px) 420px, (min-width: 480px) 420px, 100vw"
+          className="mx-auto h-auto w-full max-w-[420px] rounded-[28px] border border-line"
         />
       </Container>
     </section>
