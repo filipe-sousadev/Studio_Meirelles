@@ -21,14 +21,26 @@ export const heroFacts = [
   "Rio de Janeiro",
 ] as const;
 
+// Segmentos já atendidos (citados pela Dani ou presentes no portfólio).
+export const segments = [
+  "Saúde",
+  "Estética e beleza",
+  "Advocacia",
+  "Imóveis",
+  "Móveis planejados",
+  "Serviços automotivos",
+  "Confeitaria",
+  "Marcas pessoais",
+] as const;
+
 export const pains = [
   {
-    title: "Tem médica menos qualificada com a agenda lotada",
-    text: "Alguém que se formou depois de você e entrega menos está com a agenda cheia. Porque ela aparece.",
+    title: "Tem concorrente entregando menos e vendendo mais",
+    text: "Não porque é melhor. Porque aparece todo dia para quem está pronto para comprar.",
   },
   {
-    title: "Sua secretária não é sua social media",
-    text: "Delegar para quem não entende do digital é perda de tempo e de dinheiro.",
+    title: "Marketing não é tarefa para quem sobrar",
+    text: "Você não entregaria o financeiro da empresa a quem não é contador. Com as redes sociais é a mesma coisa.",
   },
   {
     title: "Você já se frustrou com marketing",
@@ -58,13 +70,13 @@ export const results = [
 export const resultQuote = {
   text: "Gente, tá cheio de pedido de consulta. Não tô conseguindo responder.",
   author:
-    "Mensagem de uma cliente, médica, depois de um post viralizar. [NOME — confirmar autorização]",
+    "Mensagem de uma cliente da área da saúde, depois de um post viralizar. [NOME — confirmar autorização]",
 } as const;
 
 export const notHere = [
   "A profissional que some depois do contrato assinado.",
   "Mil promessas de resultado milagroso antes de fechar.",
-  "Post genérico, que poderia ser de qualquer médica.",
+  "Post genérico, que poderia ser de qualquer empresa.",
   "Contrato num dia, post no ar no dia seguinte.",
   "Alguém que concorda com tudo só para agradar.",
 ] as const;
@@ -72,7 +84,7 @@ export const notHere = [
 export const here = [
   "Você me vê, me encontra e sabe exatamente o que está sendo feito e por quê.",
   "Honestidade desde o início sobre o que eu faço, o que entrego e o que não vou fazer.",
-  "Estudo da sua especialidade, do seu atendimento e do paciente que você quer atrair.",
+  "Estudo do seu negócio, do seu público e dos seus concorrentes.",
   "Estratégia antes de qualquer publicação.",
   "Alguém que discorda quando precisa, porque se importa com o seu resultado.",
 ] as const;
@@ -84,7 +96,7 @@ export const steps = [
   },
   {
     title: "Entendemos sua área, público e concorrentes",
-    text: "Quem você é, como atende, quem quer atrair e o que te diferencia dos outros especialistas.",
+    text: "Quem você é, como atende, quem quer atrair e o que te diferencia da concorrência.",
   },
   {
     title: "Só depois a gente cria conteúdo",
@@ -105,7 +117,7 @@ export const services = [
   },
   {
     title: "Tráfego pago",
-    text: "Campanhas em Meta e Google Ads para acelerar o que o conteúdo constrói e levar o paciente certo até você.",
+    text: "Campanhas em Meta e Google Ads para acelerar o que o conteúdo constrói e levar o cliente certo até você.",
     todo: "[ENTREGAS DO SERVIÇO — definir com a Dani]",
   },
 ] as const;
@@ -139,7 +151,7 @@ export const portfolio: ReadonlyArray<{
   },
   {
     name: "Design para social media",
-    kind: "Posts e carrosséis para clientes da saúde e estética",
+    kind: "Posts e carrosséis para clientes de vários segmentos",
     placeholder: "[IMAGEM — capa “Postfólio” com posts de clientes]",
   },
   {
@@ -152,7 +164,7 @@ export const portfolio: ReadonlyArray<{
 export const testimonials = [
   {
     text: "Primeira vez que tô trabalhando com alguém que está evoluindo de verdade, entendendo meu trabalho. Nossa troca, sua ajuda e paciência fazem toda a diferença.",
-    author: "Cliente de social media, médica. [NOME — confirmar autorização]",
+    author: "Cliente de social media. [NOME — confirmar autorização]",
   },
   {
     text: "Trabalho incrível, feito com todo carinho e excelência. Obrigada pela dedicação e profissionalismo. Ficou perfeito.",
@@ -161,7 +173,7 @@ export const testimonials = [
   },
   {
     text: "Dani, você é um anjo, merece todo o sucesso do mundo. Gratidão por tudo que você fez.",
-    author: "[NOME E ESPECIALIDADE — confirmar com a Dani]",
+    author: "[NOME E SEGMENTO — confirmar com a Dani]",
   },
 ] as const;
 
@@ -178,15 +190,15 @@ export const faq = [
   },
   {
     q: "Eu vou precisar participar?",
-    a: "Sim, e é isso que faz funcionar. Você não precisa saber tudo sobre criação de conteúdo, mas precisa estar presente no processo. Nenhuma social media conhece o seu paciente como você conhece.",
+    a: "Sim, e é isso que faz funcionar. Você não precisa saber tudo sobre criação de conteúdo, mas precisa estar presente no processo. Nenhuma social media conhece o seu cliente como você conhece.",
   },
   {
     q: "Quando os posts começam a sair?",
-    a: "Não no dia seguinte ao contrato. Antes de postar existem etapas que não dá para pular: alinhamento, estudo da sua área e estratégia. Conteúdo entregue na primeira semana quase sempre é genérico.",
+    a: "Não no dia seguinte ao contrato. Antes de postar existem etapas que não dá para pular: alinhamento, estudo do seu negócio e estratégia. Conteúdo entregue na primeira semana quase sempre é genérico.",
   },
   {
-    q: "Você atende só profissionais da saúde?",
-    a: "A gestão de redes sociais é focada em profissionais da saúde. Em identidade visual, o studio já criou marcas para vários segmentos. Me chama e a gente vê se faz sentido para o seu caso.",
+    q: "Você atende qualquer segmento?",
+    a: "Empresas e marcas pessoais de vários segmentos: saúde, estética, advocacia, imóveis, comércio e serviços. Me chama e a gente vê se faz sentido para o seu caso.",
   },
   {
     q: "Quanto custa?",

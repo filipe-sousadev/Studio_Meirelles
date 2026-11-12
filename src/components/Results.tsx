@@ -8,7 +8,7 @@ export function Results() {
         <SectionHeader
           eyebrow="Resultados de clientes"
           title="Conteúdo com estratégia chega em quem precisa de você."
-          lead="Números reais de publicações criadas pelo studio para profissionais da saúde."
+          lead="Números reais de publicações criadas pelo studio para clientes."
         />
         <ul className="grid gap-6 md:grid-cols-3">
           {results.map((item) => (

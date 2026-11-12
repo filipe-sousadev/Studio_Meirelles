@@ -1,6 +1,6 @@
 # Studio_Meirelles
 
-Landing page do Studio Meirelles (social media e design para profissionais da saúde), em Next.js (App Router), React, TypeScript e Tailwind CSS v4.
+Landing page do Studio Meirelles (social media e design para empresas e marcas pessoais), em Next.js (App Router), React, TypeScript e Tailwind CSS v4.
 
 ## Rodar
 

@@ -6,12 +6,12 @@ export function FinalCta() {
     <section>
       <Container className="flex flex-col items-start gap-7 py-28">
         <h2 className="max-w-[980px] font-display text-[clamp(40px,6.4vw,84px)] uppercase leading-[1.04]">
-          Você estudou anos para ser quem é.{" "}
+          Você construiu um negócio de verdade.{" "}
           <span className="text-pink">Isso merece ser visto.</span>
         </h2>
         <p className="max-w-[640px] text-xl text-soft">
-          Me conta sobre a sua especialidade e eu te mostro como o seu Instagram pode trazer
-          pacientes, sem depender só de indicação.
+          Me conta sobre o seu negócio e eu te mostro como o seu Instagram pode trazer clientes,
+          sem depender só de indicação.
         </p>
         <div className="flex flex-wrap items-center gap-4">
           <ButtonLink href={links.whatsapp} size="lg">

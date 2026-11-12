@@ -1,4 +1,4 @@
-import { services } from "@/content/site";
+import { segments, services } from "@/content/site";
 import { Container, SectionHeader } from "./ui";
 
 export function Services() {
@@ -8,7 +8,7 @@ export function Services() {
         <SectionHeader
           tone="light"
           eyebrow="Serviços"
-          title="Do posicionamento ao paciente na agenda."
+          title="Do posicionamento à venda."
         />
         <ul className="grid gap-6 md:grid-cols-3">
           {services.map((service) => (
@@ -19,6 +19,19 @@ export function Services() {
             </li>
           ))}
         </ul>
+        <div className="flex flex-col gap-4">
+          <h3 className="text-lg font-bold">Segmentos que já passaram pelo studio</h3>
+          <ul className="flex flex-wrap gap-2.5">
+            {segments.map((segment) => (
+              <li
+                key={segment}
+                className="rounded-full border border-paper-line bg-white px-4 py-2 text-[15px] text-plum-soft"
+              >
+                {segment}
+              </li>
+            ))}
+          </ul>
+        </div>
       </Container>
     </section>
   );

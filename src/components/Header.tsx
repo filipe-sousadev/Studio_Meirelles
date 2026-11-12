@@ -7,7 +7,7 @@ export function Header() {
       <Container className="flex flex-wrap items-center justify-between gap-4 py-6">
         <a href="#" className="flex flex-col gap-0.5 no-underline">
           <span className="text-xl font-bold tracking-[0.02em]">Studio Meirelles</span>
-          <span className="text-xs uppercase tracking-[0.18em] text-muted">Marketing médico</span>
+          <span className="text-xs uppercase tracking-[0.18em] text-muted">Social media e design</span>
         </a>
         <nav aria-label="Principal" className="flex flex-wrap items-center gap-x-6 gap-y-2">
           {nav.map((item) => (

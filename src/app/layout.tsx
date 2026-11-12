@@ -7,13 +7,13 @@ import "@fontsource/anton/latin-400.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Studio Meirelles — Social media para profissionais da saúde",
+  title: "Studio Meirelles — Social media e design para empresas",
   description:
-    "Enquanto você se dedica aos seus pacientes, o Studio Meirelles cuida da sua presença no digital: estratégia, conteúdo e design para profissionais da saúde.",
+    "Enquanto você cuida do seu negócio, o Studio Meirelles cuida da sua presença no digital: estratégia, conteúdo e design para empresas e marcas pessoais.",
   openGraph: {
-    title: "Studio Meirelles — Social media para profissionais da saúde",
+    title: "Studio Meirelles — Social media e design para empresas",
     description:
-      "Estratégia, conteúdo e design para profissionais da saúde que querem ser encontradas por quem precisa delas.",
+      "Estratégia, conteúdo e design para empresas e marcas pessoais que querem ser encontradas por quem precisa delas.",
     locale: "pt_BR",
     type: "website",
   },

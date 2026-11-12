@@ -10,8 +10,8 @@ export function Pain() {
             Seu concorrente não é melhor que você. Ele só aparece mais.
           </h2>
           <p className="text-[19px] text-plum-soft">
-            Enquanto você não posta, tem paciente pesquisando pela sua especialidade agora e
-            encontrando outra profissional no lugar.
+            Enquanto você não posta, tem cliente procurando o que você vende agora e encontrando
+            outra empresa no lugar.
           </p>
         </div>
         <ul className="grid gap-6 md:grid-cols-3">
