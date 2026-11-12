@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  /* Paleta do Studio Meirelles */
+  --color-ink: #140822;
+  --color-surface: #21103a;
+  --color-line: #3a2459;
+  --color-dash: #6b4e96;
+  --color-fg: #f4eefb;
+  --color-soft: #d9cdea;
+  --color-muted: #bfb0d6;
+  --color-pink: #ff4f9a;
+  --color-pink-hover: #ff7db4;
+  --color-berry: #b0125a;
+  --color-paper: #f6f1fa;
+  --color-plum: #1b0e2e;
+  --color-plum-soft: #3b2a52;
+  --color-plum-muted: #4a3a61;
+  --color-paper-line: #dccfea;
+
+  --font-sans: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Anton", "Sora", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    background: var(--color-ink);
+    color: var(--color-fg);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-pink);
+    outline-offset: 3px;
+  }
+}
